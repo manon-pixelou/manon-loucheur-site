@@ -60,7 +60,7 @@ header.site-header { background: var(--bg); border-bottom: 1px solid var(--line)
   display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; row-gap: 14px;
 }
 .brand-block { display: flex; align-items: center; gap: 12px; text-decoration:none; }
-.brand-block img { height: 76px; width: auto; }
+.brand-block img { height: 90px; width: auto; }
 .brand-name { font-family: 'Lora', serif; font-style: italic; font-size: 20px; color: var(--rose-deep); line-height: 1.15; }
 .brand-title { font-family: 'Jost', sans-serif; font-size: 11px; letter-spacing: .14em; text-transform: uppercase; color: var(--label); }
 
