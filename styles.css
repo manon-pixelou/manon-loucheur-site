@@ -60,8 +60,10 @@ header.site-header { background: var(--bg); border-bottom: 1px solid var(--line)
   display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; row-gap: 14px;
 }
 .brand-block { display: flex; align-items: center; gap: 12px; text-decoration:none; }
-.brand-block img { height: 170px; width: auto; display: block; }
-.nav-inner { padding-top: 6px; padding-bottom: 6px; }
+.brand-block img { height: 88px; width: auto; display: block; }
+.brand-name { font-family: 'Lora', serif; font-style: italic; font-size: 26px; color: var(--rose-deep); line-height: 1.15; }
+.brand-title { font-family: 'Jost', sans-serif; font-size: 13px; letter-spacing: .14em; text-transform: uppercase; color: var(--label); }
+.nav-inner { padding-top: 14px; padding-bottom: 14px; }
 .brand-name { font-family: 'Lora', serif; font-style: italic; font-size: 20px; color: var(--rose-deep); line-height: 1.15; }
 .brand-title { font-family: 'Jost', sans-serif; font-size: 11px; letter-spacing: .14em; text-transform: uppercase; color: var(--label); }
 
